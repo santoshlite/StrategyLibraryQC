@@ -1,34 +1,24 @@
 from setuptools import setup
 
+#If you don't have a README.md you can delete these 2 line below
 with open("README.md", "r", encoding="utf8") as fh:
     long_description = fh.read()
 
 setup(
-    name='empyrial',
-    version='0.1.4',
-    description='Empyrial makes portfolio management and analysis faster and easier',
-    py_modules=['empyrial'],
+    name='name',
+    version='0.1.0',
+    description='Description of your package',
+    py_modules=['name'],
     package_dir={'':'src'},
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url='https://github.com/ssantoshp/Empyrial',
-    author = "Santosh Passoubady",
-    author_email = "santoshpassoubady@gmail.com",
-    license='MIT',
+    url='https://github.com/...',
+    author = "Your name",
+    author_email = "Your email",
+    license='name of your license',
     install_requires=[
           'numpy',
           'matplotlib',
-          'pykalman',
-          'seaborn',
-          'scipy',
-          'pandas_datareader',
-          'datetime',
-          'statsmodels',
-          'sklearn',
-          'empyrical',
-          'quantstats',
-          'python-dateutil',
-          'python-math',
-          'yfinance'
+          '...',
       ],
 )
